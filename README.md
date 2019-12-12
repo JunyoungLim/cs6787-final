@@ -1,6 +1,7 @@
 Graph Model:
 
 1.Folders
+
 data: contains the Karate club toy dataset, three benmark dataset for semi-supervised learning: Cora, Citeseer
 and Pubmed, and a large network dataset:GSN
 
@@ -10,6 +11,7 @@ video: two videos of showing how GCN model improves during the traning process (
 
 
 2. Python Scirpts
+
 models.py: It contains the GCN, GCN with residual connection and GAT models 
 
 spectrum_embedding.py: It contains the code to run spectrum embedding model under a supervised task
@@ -26,6 +28,7 @@ a plot function for wall clock time analysis
 
 
 3.Notebooks
+
 visualization.ipynb : a notebook contains the code to genarate visualizations for qualitative analysis.
 
 Model.ipynb : a notebook contains the code to compare model perforances quantatively and contains code segment 
