@@ -1,6 +1,6 @@
 Graph Model:
 
-1.Folders
+1.Folders:
 
 data: contains the Karate club toy dataset, three benmark dataset for semi-supervised learning: Cora, Citeseer
 and Pubmed, and a large network dataset:GSN
@@ -10,7 +10,7 @@ images: a folder of genrated visualzation plot
 video: two videos of showing how GCN model improves during the traning process (GCN model applied on the toy dataset) 
 
 
-2. Python Scirpts
+2. Python Scirpts:
 
 models.py: It contains the GCN, GCN with residual connection and GAT models 
 
@@ -27,7 +27,7 @@ plot.py: a script to plot results for showing impact of nerual model depth and c
 a plot function for wall clock time analysis
 
 
-3.Notebooks
+3.Notebooks:
 
 visualization.ipynb : a notebook contains the code to genarate visualizations for qualitative analysis.
 
