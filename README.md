@@ -1,36 +1,36 @@
-Graph Model:
-
-1.Folders:
-
-data: contains the Karate club toy dataset, three benmark dataset for semi-supervised learning: Cora, Citeseer
-and Pubmed, and a large network dataset:GSN
-
-images: a folder of genrated visualzation plot
-
-video: two videos of showing how GCN model improves during the traning process (GCN model applied on the toy dataset) 
 
 
-2. Python Scirpts:
+# A Survey of Dimensionality Reduction Techniques
 
-models.py: It contains the GCN, GCN with residual connection and GAT models 
+## Graph Models
 
-spectrum_embedding.py: It contains the code to run spectrum embedding model under a supervised task
+### Folders:
 
-tsne.py: It contains the code to run tsne model under a supservised task
-*Note for t-sne we use the off the shelf implementation from scikit-learn.*
+* <b>data: contains the Karate club toy dataset, three benmark dataset for semi-supervised learning: Cora, Citeseer
+and Pubmed, and a large network dataset:GSN</b>
 
-train_utlis:utlis class for training neural model including metrics and evaltion script
+* <b>images: a folder of genrated visualzation plot </b>
 
-plot_utlis:utlis class for plotting graph
-
-plot.py: a script to plot results for showing impact of nerual model depth and contain 
-a plot function for wall clock time analysis
+* <b>video: two videos of showing how GCN model improves during the traning process (GCN model applied on the toy dataset)  </b>
 
 
-3.Notebooks:
+### Python Scirpts:
 
-visualization.ipynb : a notebook contains the code to genarate visualizations for qualitative analysis.
+* <b>models.py: It contains the GCN, GCN with residual connection and GAT models  </b>
 
-Model.ipynb : a notebook contains the code to compare model perforances quantatively and contains code segment 
-that demnonstartes how to run the the implemented models. The notebook is to analyze semi-supervised perforamnce of 
-the implemented graph nerual model.
+* <b>spectrum_embedding.py: It contains the code to run spectrum embedding model under a supervised task </b>
+
+* <b>tsne.py: It contains the code to run tsne model under a supservised task (Note for t-sne we use the off the shelf implementation from scikit-learn) </b>
+
+* <b>train_utlis: utlis class for training neural model including metrics and evaltion script </b>
+
+* <b>plot_utlis: utlis class for plotting graph </b>
+
+* <b>plot.py: a script to plot results for showing impact of nerual model depth and contain a plot function for wall clock time analysis </b>
+
+
+### Notebooks:
+
+* <b>visualization.ipynb : a notebook contains the code to genarate visualizations for qualitative analysis.</b>
+
+* <b>Model.ipynb : a notebook contains the code to compare model perforances quantatively and contains code segment that demnonstartes how to run the the implemented models. The notebook is to analyze semi-supervised perforamnce of the implemented graph nerual model.</b>
