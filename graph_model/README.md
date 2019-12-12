@@ -4,6 +4,26 @@
 
 ## Graph Models
 
+<b> A Evoluation Plot for Graph Convolution Network on 4-label dataset </b> 
+
+<p align="center">
+   <img src="video/kara_4.gif" width="500">
+   <br>
+   <b>GCN training on the the Karate Club Netowkr Dataset</b>
+</p>
+
+<b> A Evoluation Plot for Graph Convolution Network on 2-label dataset </b> 
+
+<p align="center">
+   <img src="video/kara_2.gif" width="500">
+   <br>
+   <b>GCN training on the the Karate Club Netowkr Dataset</b>
+</p>
+
+<b> A model depth analysis for Graph Convolution Network. 5-fold cross validation perforamnce of GCN and GCN with residual connections on the 3 Benchmark Datasets. Shaded area indicate the variance of change </b> 
+![depth](images/depth_cross.jpg)
+
+
 ### Folders:
 
 * <b>data: contains the Karate club toy dataset, three benmark dataset for semi-supervised learning: Cora, Citeseer
