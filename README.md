@@ -2,6 +2,8 @@
 
 # A Survey of Dimensionality Reduction Techniques
 
+<br> Authors: Xingyu Chen and Junyoung Lim </br> 
+
 ## Graph Models
 
 <b> A Evoluation Plot for Graph Convolution Network on 4-label dataset </b> 
