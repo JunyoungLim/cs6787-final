@@ -42,8 +42,6 @@ and Pubmed, and a large network dataset:GSN</b>
 
 * <b>spectrum_embedding.py: It contains the code to run spectrum embedding model under a supervised task </b>
 
-* <b>tsne.py: It contains the code to run tsne model under a supservised task (Note for t-sne we use the off the shelf implementation from scikit-learn) </b>
-
 * <b>train_utlis: utlis class for training neural model including metrics and evaltion script </b>
 
 * <b>plot_utlis: utlis class for plotting graph </b>
@@ -53,6 +51,6 @@ and Pubmed, and a large network dataset:GSN</b>
 
 ### Notebooks:
 
-* <b>visualization.ipynb : a notebook contains the code to genarate visualizations for qualitative analysis.</b>
+* <b>visualization.ipynb : contains the code to run tsne model under a supservised task (Note for t-sne we use the off the shelf implementation from scikit-learn) </b>
 
 * <b>Model.ipynb : a notebook contains the code to compare model perforances quantatively and contains code segment that demnonstartes how to run the the implemented models. The notebook is to analyze semi-supervised perforamnce of the implemented graph nerual model.</b>
