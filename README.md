@@ -4,6 +4,19 @@
 
 <br> Authors: Xingyu Chen and Junyoung Lim </br> 
 
+## NOTE: `image_model/data` directory should have:
+```bash
+data/
+├── _config.yml
+├── cifar10/ 
+    ├── data_batch_1
+    ├── data_batch_2
+    ├── data_batch_3
+    ├── data_batch_4
+    ├── data_batch_5
+    └── test_batch
+```
+
 ## Graph Models
 
 <b> A Evoluation Plot for Graph Convolution Network on 4-label dataset </b> 
