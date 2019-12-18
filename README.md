@@ -4,7 +4,7 @@
 
 <br> Authors: Xingyu Chen and Junyoung Lim </br> 
 
-## NOTE: `image_model/data` directory should have:
+#### NOTE: `image_model/data` directory should have:
 ```bash
 data/
 ├── _config.yml
