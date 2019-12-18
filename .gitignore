@@ -1,2 +1,4 @@
 **/__pycache__
 image_model/embeddings
+**/.DS_Store
+**/.ipynb_checkpoints

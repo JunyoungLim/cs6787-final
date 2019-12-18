@@ -36,7 +36,7 @@ and Pubmed, and a large network dataset:GSN</b>
 * <b>video: two videos of showing how GCN model improves during the traning process (GCN model applied on the toy dataset)  </b>
 
 
-### Python Scirpts:
+### Python Scripts:
 
 * <b>models.py: It contains the GCN, GCN with residual connection and GAT models  </b>
 
