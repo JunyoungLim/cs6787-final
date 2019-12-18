@@ -60,8 +60,18 @@ def load_cifar10_data():
 
         X = np.concatenate((X, data['data']))
         y = np.concatenate((y, data['labels']))
+        f.close()
 
     X = X.astype(np.float32)
     y = y.astype(np.float32)
 
-    return X.astype(np.float32), y.astype(np.float32)
+    file_name = os.path.join(data_path, "test_batch")
+    f = open(file_name, 'rb')
+    data = pickle.load(f, encoding='bytes')
+    X_test = np.array(data['data']) #   (10000, 3072)
+    y_test = np.array(data['labels']) #   (10000,)
+    X_test = X_test.astype(np.float32)
+    y_test = y_test.astype(np.float32)
+    f.close()
+
+    return (X, y), (X_test, y_test)
